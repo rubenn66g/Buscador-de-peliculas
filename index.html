@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="Buscador" style="visibility: hidden;">
+        <header id="headerArea">
+
+            <div id="logoContainer">
+                <img id="logo" src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-movie-cinema-entertainment-logo-with-neon-sign-effect-vector-illustration-png-image_3669645.jpg" alt="logo">
+            </div>
+
+            <div id="inputsContainer">
+                <label>Pelicula</label>
+                <input type="text" id="input">
+                <input type="submit" id="enviar" value="Buscar">
+
+                <label>Año</label>
+                <input type="text" id="input2">
+                <input type="submit" id="enviar2" value="Buscar">
+
+                <label for="tipo">Tipo:</label>
+                    <select id="tipo">
+                        <option value="movie">Película</option>
+                        <option value="series">Serie</option>
+                    </select>
+            </div>
+            
+        </header>
+
+        <div id="contenedor"></div>
+        <div id="peli"></div>
+    </div>
+    <div id="inicio">
+        <h1>Buscador de Peliculas</h1>
+        <h2>Descubre miles de películas al instante.
+        Busca por título, por año o explora tu saga favorita.
+        Posters, detalles y mucho más… ¡todo en un clic!
+
+        <h2>Pulsa el botón para comenzar 👉</h2>
+        <button id="botonBuscador">Acceder al Buscador</button>
+    </div>
+
+</body>
+
+</html>
